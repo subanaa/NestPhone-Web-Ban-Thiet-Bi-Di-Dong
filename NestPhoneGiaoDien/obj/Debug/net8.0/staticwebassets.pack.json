@@ -1,0 +1,401 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NestPhoneGiaoDien.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NestPhoneGiaoDien.4sul9w7mjs.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\NhanVien.png",
+      "PackagePath": "staticwebassets\\NhanVien.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\NhanVien_Kho.png",
+      "PackagePath": "staticwebassets\\NhanVien_Kho.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\Oppo_Find_X8.png",
+      "PackagePath": "staticwebassets\\Oppo_Find_X8.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\Oppo_Reno13.png",
+      "PackagePath": "staticwebassets\\Oppo_Reno13.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\avatar_female.png",
+      "PackagePath": "staticwebassets\\avatar_female.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\avatar_nam.png",
+      "PackagePath": "staticwebassets\\avatar_nam.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\banner-side.jpg",
+      "PackagePath": "staticwebassets\\banner-side.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\banner-side2.jpg",
+      "PackagePath": "staticwebassets\\banner-side2.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\banner_main.png",
+      "PackagePath": "staticwebassets\\banner_main.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\banner_main2.png",
+      "PackagePath": "staticwebassets\\banner_main2.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\banner_main3.png",
+      "PackagePath": "staticwebassets\\banner_main3.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\banner_main4.png",
+      "PackagePath": "staticwebassets\\banner_main4.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\default_avatar.png",
+      "PackagePath": "staticwebassets\\default_avatar.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\iphone15.jpg",
+      "PackagePath": "staticwebassets\\iphone15.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\iphone_14.png",
+      "PackagePath": "staticwebassets\\iphone_14.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\iphone_16.png",
+      "PackagePath": "staticwebassets\\iphone_16.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lenovo_legion.jpg",
+      "PackagePath": "staticwebassets\\lenovo_legion.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_apple.png",
+      "PackagePath": "staticwebassets\\logo_apple.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_iphone.png",
+      "PackagePath": "staticwebassets\\logo_iphone.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_lenovo.png",
+      "PackagePath": "staticwebassets\\logo_lenovo.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_oppo.png",
+      "PackagePath": "staticwebassets\\logo_oppo.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_samsung.png",
+      "PackagePath": "staticwebassets\\logo_samsung.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_vivo.png",
+      "PackagePath": "staticwebassets\\logo_vivo.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_xiaomi.jpg",
+      "PackagePath": "staticwebassets\\logo_xiaomi.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\logo_xiaomi.png",
+      "PackagePath": "staticwebassets\\logo_xiaomi.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\oppo_findx7.jpg",
+      "PackagePath": "staticwebassets\\oppo_findx7.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\s24ultra.jpg",
+      "PackagePath": "staticwebassets\\s24ultra.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\samsung_S21.png",
+      "PackagePath": "staticwebassets\\samsung_S21.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\samsung_S25.png",
+      "PackagePath": "staticwebassets\\samsung_S25.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\slogan.png",
+      "PackagePath": "staticwebassets\\slogan.png"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\vivox100pro.jpg",
+      "PackagePath": "staticwebassets\\vivox100pro.jpg"
+    },
+    {
+      "Id": "D:\\Lap_Trinh_Web_Nang_Cao\\NestPhone_V_2906\\NestPhoneGiaoDien\\wwwroot\\xiaomi14ultra.jpg",
+      "PackagePath": "staticwebassets\\xiaomi14ultra.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NestPhoneGiaoDien.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NestPhoneGiaoDien.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NestPhoneGiaoDien.props",
+      "PackagePath": "build\\NestPhoneGiaoDien.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NestPhoneGiaoDien.props",
+      "PackagePath": "buildMultiTargeting\\NestPhoneGiaoDien.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NestPhoneGiaoDien.props",
+      "PackagePath": "buildTransitive\\NestPhoneGiaoDien.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,377 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NestPhoneGiaoDien
+build_property.RootNamespace = NestPhoneGiaoDien
+build_property.ProjectDir = D:\Lap_Trinh_Web_Nang_Cao\NestPhone_V_2906\NestPhoneGiaoDien\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Lap_Trinh_Web_Nang_Cao\NestPhone_V_2906\NestPhoneGiaoDien
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/AdminTongRieng/AdminTongRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5Ub25nUmllbmdcQWRtaW5Ub25nUmllbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/DonHangQuanLy/DonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRG9uSGFuZ1F1YW5MeVxEb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/DonHangQuanLy/SuaDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRG9uSGFuZ1F1YW5MeVxTdWFEb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/DonHangQuanLy/ThemDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRG9uSGFuZ1F1YW5MeVxUaGVtRG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/DonHangQuanLy/XoaDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRG9uSGFuZ1F1YW5MeVxYb2FEb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhachHangQuanLy/KhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hhY2hIYW5nUXVhbkx5XEtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhachHangQuanLy/SuaKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hhY2hIYW5nUXVhbkx5XFN1YUtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhachHangQuanLy/ThemKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hhY2hIYW5nUXVhbkx5XFRoZW1LaGFjaEhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhachHangQuanLy/XoaKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hhY2hIYW5nUXVhbkx5XFhvYUtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhoQuanLy/Kho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hvUXVhbkx5XEtoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhoQuanLy/SuaKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hvUXVhbkx5XFN1YUtoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhoQuanLy/ThemKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hvUXVhbkx5XFRoZW1LaG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhoQuanLy/XoaKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2hvUXVhbkx5XFhvYUtoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhuyenMaiQuanLy/KhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2h1eWVuTWFpUXVhbkx5XEtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhuyenMaiQuanLy/SuaKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2h1eWVuTWFpUXVhbkx5XFN1YUtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhuyenMaiQuanLy/ThemKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2h1eWVuTWFpUXVhbkx5XFRoZW1LaHV5ZW5NYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/KhuyenMaiQuanLy/XoaKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cS2h1eWVuTWFpUXVhbkx5XFhvYUtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/NhanVienQuanLy/NhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTmhhblZpZW5RdWFuTHlcTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/NhanVienQuanLy/SuaNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTmhhblZpZW5RdWFuTHlcU3VhTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/NhanVienQuanLy/ThemNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTmhhblZpZW5RdWFuTHlcVGhlbU5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/NhanVienQuanLy/XoaNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTmhhblZpZW5RdWFuTHlcWG9hTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/ChiTietKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcQ2hpVGlldEtoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/ChiTietKhoAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcQ2hpVGlldEtob0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/NhanVienQL_Kho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcTmhhblZpZW5RTF9LaG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/NhanVienQL_KhoAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcTmhhblZpZW5RTF9LaG9BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/SuaKhoRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcU3VhS2hvUmllbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/SuaKhoRiengAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcU3VhS2hvUmllbmdBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/ThemKhoRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcVGhlbUtob1JpZW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/ThemKhoRiengAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcVGhlbUtob1JpZW5nQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/XoaKhoRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcWG9hS2hvUmllbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/QuanLyKhoRieng/XoaKhoRiengAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVhbkx5S2hvUmllbmdcWG9hS2hvUmllbmdBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/SanPhamQuanLy/SanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2FuUGhhbVF1YW5MeVxTYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/SanPhamQuanLy/SuaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2FuUGhhbVF1YW5MeVxTdWFTYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/SanPhamQuanLy/ThemSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2FuUGhhbVF1YW5MeVxUaGVtU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/SanPhamQuanLy/XoaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2FuUGhhbVF1YW5MeVxYb2FTYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/ThongTinCaNhanAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVGhvbmdUaW5DYU5oYW5BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Admin/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/DangKy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuZ0t5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/DangNhap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuZ05oYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/DangXuat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuZ1h1YXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/DonHang/ChiTiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uSGFuZ1xDaGlUaWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/DonHang/DonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uSGFuZ1xEb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/DonHang/ThanhToan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uSGFuZ1xUaGFuaFRvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/DonHang/ThanhToanThanhCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uSGFuZ1xUaGFuaFRvYW5UaGFuaENvbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/KhachHang/ThongTinCaNhan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2hhY2hIYW5nXFRob25nVGluQ2FOaGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/KhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS2h1eWVuTWFpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyDonHangRieng/ChiTietDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5RG9uSGFuZ1JpZW5nXENoaVRpZXREb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyDonHangRieng/ChiTietDonHangRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5RG9uSGFuZ1JpZW5nXENoaVRpZXREb25IYW5nUmllbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyDonHangRieng/QuanLyDonHangAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5RG9uSGFuZ1JpZW5nXFF1YW5MeURvbkhhbmdBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyDonHangRieng/QuanLyDonHangRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5RG9uSGFuZ1JpZW5nXFF1YW5MeURvbkhhbmdSaWVuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyNhanVienRieng/NhanVienQuanTri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5TmhhblZpZW5SaWVuZ1xOaGFuVmllblF1YW5UcmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyNhanVienRieng/NhanVienQuanTriAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5TmhhblZpZW5SaWVuZ1xOaGFuVmllblF1YW5UcmlBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyNhanVienRieng/SuaNhanVienRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5TmhhblZpZW5SaWVuZ1xTdWFOaGFuVmllblJpZW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyNhanVienRieng/SuaNhanVienRiengAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5TmhhblZpZW5SaWVuZ1xTdWFOaGFuVmllblJpZW5nQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyNhanVienRieng/ThemNhanVienRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5TmhhblZpZW5SaWVuZ1xUaGVtTmhhblZpZW5SaWVuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyNhanVienRieng/ThemNhanVienRiengAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5TmhhblZpZW5SaWVuZ1xUaGVtTmhhblZpZW5SaWVuZ0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ChiTietSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXENoaVRpZXRTYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ChiTietSanPhamAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXENoaVRpZXRTYW5QaGFtQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SanPhamAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFNhblBoYW1BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SuaChiTietKhac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFN1YUNoaVRpZXRLaGFjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SuaChiTietKhacAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFN1YUNoaVRpZXRLaGFjQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SuaThongSoKyThuat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFN1YVRob25nU29LeVRodWF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SuaThongSoKyThuatAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFN1YVRob25nU29LeVRodWF0QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SuaThongTinCoBan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFN1YVRob25nVGluQ29CYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/SuaThongTinCoBanAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFN1YVRob25nVGluQ29CYW5BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemChiTietSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1DaGlUaWV0U2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemChiTietSanPhamAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1DaGlUaWV0U2FuUGhhbUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemMDH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1NREguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemMDHAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1NREhBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemSanPhamRieng.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1TYW5QaGFtUmllbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemSanPhamRiengAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1TYW5QaGFtUmllbmdBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemTSKT.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1UU0tULmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLySanPhamRieng/ThemTSTKAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5U2FuUGhhbVJpZW5nXFRoZW1UU1RLQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/QuanLyThongKe/QuanLyThongKe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhbkx5VGhvbmdLZVxRdWFuTHlUaG9uZ0tlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/SanPham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuUGhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/SanPham/ThongTin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FuUGhhbVxUaG9uZ1Rpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Shared/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEFkbWluUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Shared/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Lap_Trinh_Web_Nang_Cao/NestPhone_V_2906/NestPhoneGiaoDien/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-srn13vb7qo
