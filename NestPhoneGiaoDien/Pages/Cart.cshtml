@@ -1,0 +1,253 @@
+﻿@page
+@model MobileStore.Web.Pages.CartModel
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container py-5">
+    <div class="card p-4 bg-light shadow-sm">
+        <h3 class="text-dark mb-4">🛒 Giỏ hàng của bạn</h3>
+
+        @if (Model.CartItems.Any())
+        {
+            <table class="table align-middle">
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Tổng</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.CartItems)
+                    {
+                        <tr data-mact="@item.MaChiTiet">
+                            <td class="d-flex align-items-center gap-2">
+                                <img src="@item.ImageUrl" alt="@item.ProductName" style="width: 50px; height: auto;" class="rounded shadow-sm" />
+                                <span>@item.ProductName</span>
+                            </td>
+                            <td>@item.Price.ToString("N0") ₫</td>
+                            <td>
+                                <input type="number" value="@item.Quantity" min="1"
+                                       class="form-control quantity-input"
+                                       style="width: 70px;"
+                                       data-machitiet="@item.MaChiTiet"
+                                       data-price="@item.Price" />
+                            </td>
+                            <td id="total-@item.MaChiTiet">@((item.Price * item.Quantity).ToString("N0")) ₫</td>
+                            <td>
+                                <button class="btn btn-danger btn-sm" onclick="removeFromCart('@item.MaChiTiet')">X</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="d-flex justify-content-end align-items-center mt-4">
+                <span class="me-2 fw-semibold">Tổng cộng:</span>
+                <strong class="text-warning fs-5" id="tong-cong-label">@Model.TotalPrice.ToString("N0") ₫</strong>
+            </div>
+
+            <form id="create-order-form" method="post" asp-page-handler="CreateOrderAsync" class="mt-3">
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <label for="phuongThucThanhToan" class="form-label fw-semibold">Phương thức thanh toán:</label>
+                    <select name="phuongThucThanhToan" id="phuongThucThanhToan" class="form-select" required>
+                        <option value="Thanh toán khi nhận hàng">Thanh toán khi nhận hàng</option>
+                        <option value="Chuyển khoản ngân hàng">Chuyển khoản ngân hàng</option>
+                        <option value="Thẻ tín dụng">Thẻ tín dụng</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-warning fw-semibold">Tạo đơn hàng</button>
+            </form>
+        }
+        else
+        {
+            <p class="text-muted">Giỏ hàng của bạn đang trống.</p>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Xử lý cập nhật số lượng
+            document.querySelectorAll('.quantity-input').forEach(input => {
+                input.addEventListener('change', async function () {
+                    const maChiTiet = this.dataset.machitiet;
+                    const quantity = parseInt(this.value);
+                    const price = parseInt(this.dataset.price);
+
+                    console.log(`Cập nhật số lượng: maChiTiet=${maChiTiet}, quantity=${quantity}`);
+
+                    if (!maChiTiet || quantity < 1) {
+                        alert('Số lượng không hợp lệ.');
+                        this.value = 1;
+                        return;
+                    }
+
+                    const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value;
+                    if (!token) {
+                        console.error('Không tìm thấy token xác thực');
+                        alert('Lỗi xác thực. Vui lòng làm mới trang.');
+                        return;
+                    }
+
+                    try {
+                        const response = await fetch('/Cart?handler=UpdateQuantityAsync', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'RequestVerificationToken': token
+                            },
+                            body: JSON.stringify({ maChiTiet, quantity })
+                        });
+
+                        console.log(`Phản hồi từ /Cart?handler=UpdateQuantityAsync: status=${response.status}`);
+
+                        if (!response.ok) {
+                            const text = await response.text();
+                            console.error('Phản hồi không phải JSON:', text);
+                            throw new Error(`Phản hồi không thành công: ${response.status} ${response.statusText}`);
+                        }
+
+                        const result = await response.json();
+                        console.log('Kết quả JSON:', result);
+
+                        if (result.success) {
+                            const totalCell = document.getElementById(`total-${maChiTiet}`);
+                            if (totalCell) {
+                                totalCell.innerText = (price * quantity).toLocaleString("vi-VN") + " ₫";
+                            }
+                            updateTongCong();
+                        } else {
+                            alert(result.message);
+                            this.value = 1;
+                        }
+                    } catch (err) {
+                        console.error('Lỗi cập nhật số lượng:', err);
+                        alert('Đã xảy ra lỗi khi cập nhật số lượng: ' + err.message);
+                        this.value = 1;
+                    }
+                });
+            });
+
+            // Hàm xóa sản phẩm
+            window.removeFromCart = async function (maChiTiet) {
+                if (!confirm('Bạn có chắc muốn xóa sản phẩm này khỏi giỏ hàng?')) return;
+
+                const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value;
+                if (!token) {
+                    console.error('Không tìm thấy token xác thực');
+                    alert('Lỗi xác thực. Vui lòng làm mới trang.');
+                    return;
+                }
+
+                console.log(`Xóa sản phẩm: maChiTiet=${maChiTiet}`);
+
+                try {
+                    const response = await fetch('/Cart?handler=RemoveFromCartAsync', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'RequestVerificationToken': token
+                        },
+                        body: JSON.stringify({ maChiTiet })
+                    });
+
+                    console.log(`Phản hồi từ /Cart?handler=RemoveFromCartAsync: status=${response.status}`);
+
+                    if (!response.ok) {
+                        const text = await response.text();
+                        console.error('Phản hồi không phải JSON:', text);
+                        throw new Error(`Phản hồi không thành công: ${response.status} ${response.statusText}`);
+                    }
+
+                    const result = await response.json();
+                    console.log('Kết quả JSON:', result);
+
+                    if (result.success) {
+                        const row = document.querySelector(`tr[data-mact="${maChiTiet}"]`);
+                        if (row) row.remove();
+                        updateTongCong();
+                        if (!document.querySelectorAll('.quantity-input').length) {
+                            location.reload();
+                        }
+                    } else {
+                        alert(result.message);
+                    }
+                } catch (err) {
+                    console.error('Lỗi xóa sản phẩm:', err);
+                    alert('Đã xảy ra lỗi khi xóa sản phẩm: ' + err.message);
+                }
+            };
+
+            // Hàm cập nhật tổng cộng
+            function updateTongCong() {
+                let tong = 0;
+                document.querySelectorAll('.quantity-input').forEach(input => {
+                    const price = parseInt(input.dataset.price);
+                    const quantity = parseInt(input.value);
+                    tong += price * quantity;
+                });
+
+                const tongLabel = document.getElementById('tong-cong-label');
+                if (tongLabel) {
+                    tongLabel.innerText = tong.toLocaleString('vi-VN') + ' ₫';
+                }
+                console.log(`Tổng cộng: ${tong.toLocaleString('vi-VN')} ₫`);
+            }
+
+            // Xử lý submit form tạo đơn hàng
+            document.getElementById('create-order-form').addEventListener('submit', async function (e) {
+                e.preventDefault();
+                const form = this;
+                const formData = new FormData(form);
+
+                const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value;
+                if (!token) {
+                    console.error('Không tìm thấy token xác thực');
+                    alert('Lỗi xác thực. Vui lòng làm mới trang.');
+                    return;
+                }
+
+                console.log('Gửi yêu cầu tạo đơn hàng');
+
+                try {
+                    const response = await fetch(form.action, {
+                        method: 'POST',
+                        headers: {
+                            'RequestVerificationToken': token
+                        },
+                        body: formData
+                    });
+
+                    console.log(`Phản hồi từ /Cart?handler=CreateOrderAsync: status=${response.status}`);
+
+                    if (!response.ok) {
+                        const text = await response.text();
+                        console.error('Phản hồi không phải JSON:', text);
+                        throw new Error(`Phản hồi không thành công: ${response.status} ${response.statusText}`);
+                    }
+
+                    const result = await response.json();
+                    console.log('Kết quả JSON:', result);
+
+                    if (result.success) {
+                        alert(result.message);
+                        if (result.redirect) {
+                            window.location.href = result.redirect;
+                        }
+                    } else {
+                        alert(result.message);
+                    }
+                } catch (err) {
+                    console.error('Lỗi tạo đơn hàng:', err);
+                    alert('Đã xảy ra lỗi khi tạo đơn hàng: ' + err.message);
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,123 @@
+﻿@page
+@model MobileStore.Web.Pages.Auth.DangNhapModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "~/Pages/Shared/_AuthLayout.cshtml";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<style>
+    .login-container {
+        display: flex;
+        padding: -50px 0;
+        background-color: #FFDD4A;
+    }
+
+    .login-left {
+        flex: 1;
+        background: url('~/logo.png') center center no-repeat;
+        background-size: cover;
+        background-color: #FFDD4A;
+    }
+
+    .login-right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        background-color: #FFDD4A;
+    }
+
+    .login-box {
+        width: 100%;
+        max-width: 400px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .login-box h3 {
+            font-weight: bold;
+            margin-bottom: 24px;
+        }
+
+    .form-control {
+        border-radius: 6px;
+    }
+
+    .btn-login {
+        width: 100%;
+        background-color: #ee4d2d;
+        border: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+
+        .btn-login:hover {
+            background-color: #d7381c;
+        }
+
+    .login-links {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+        .login-links a {
+            text-decoration: none;
+            color: #ee4d2d;
+        }
+
+            .login-links a:hover {
+                text-decoration: underline;
+            }
+
+    .login-logo {
+        max-width: 100px;
+    }
+</style>
+
+<div class="login-container">
+    <div class="login-left">
+        <a href="/">
+            <img src="~/logo.png" alt="Logo" class="login-logo" />
+        </a>
+    </div>
+    <div class="login-right">
+        <div class="login-box">
+            <h3>Đăng nhập</h3>
+
+            <form method="post">
+                <div class="mb-3">
+                    <input asp-for="LoginModel.Username" class="form-control" placeholder="Số điện thoại" />
+                    <span asp-validation-for="LoginModel.Username" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <input asp-for="LoginModel.Password" type="password" class="form-control" placeholder="Mật khẩu" />
+                    <span asp-validation-for="LoginModel.Password" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-login">ĐĂNG NHẬP</button>
+                <div class="login-links mt-3">
+                    <a href="#">Quên mật khẩu?</a>
+                    <span class="mx-2">|</span>
+                    <a href="/DangKy">Đăng ký</a>
+                </div>
+
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="alert alert-danger mt-3">@Model.ErrorMessage</div>
+                }
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

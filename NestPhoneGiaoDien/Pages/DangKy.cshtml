@@ -1,0 +1,179 @@
+﻿@page
+@model NestPhoneGiaoDien.Pages.DangKyModel
+@{
+    ViewData["Title"] = "Đăng ký";
+    Layout = "~/Pages/Shared/_AuthLayout.cshtml";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+<style>
+    .register-container {
+        display: flex;
+        background-color: #FFDD4A;
+        min-height: 100vh;
+    }
+
+    .register-left {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFDD4A;
+    }
+
+    .register-right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        background-color: #FFDD4A;
+    }
+
+    .register-box {
+        width: 100%;
+        max-width: 500px;
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .register-box h3 {
+            font-weight: bold;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+    .form-control {
+        border-radius: 6px;
+    }
+
+    .btn-register {
+        width: 100%;
+        background-color: #ee4d2d;
+        border: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+
+        .btn-register:hover {
+            background-color: #d7381c;
+        }
+
+    .register-links {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+        .register-links a {
+            text-decoration: none;
+            color: #ee4d2d;
+        }
+
+            .register-links a:hover {
+                text-decoration: underline;
+            }
+
+    .login-logo {
+        width: 300px;
+        height: auto;
+    }
+
+    .invalid-feedback {
+        display: none;
+    }
+
+    .was-validated .form-control:invalid,
+    .form-control.is-invalid {
+        border-color: #dc3545;
+    }
+
+        .was-validated .form-control:invalid ~ .invalid-feedback,
+        .form-control.is-invalid ~ .invalid-feedback {
+            display: block;
+        }
+</style>
+
+<div class="register-container">
+    <div class="register-left">
+        <a href="/">
+            <img src="~/logo.png" alt="Logo" class="login-logo" />
+        </a>
+    </div>
+    <div class="register-right">
+        <div class="register-box">
+            <h3>Tạo tài khoản</h3>
+
+            <form method="post" id="registerForm" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+                {
+                    <div class="alert alert-danger">@Model.ErrorMessage</div>
+                }
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="RegisterModel.FullName" class="form-label">Họ và tên</label>
+                        <input asp-for="RegisterModel.FullName" class="form-control" required />
+                        <span asp-validation-for="RegisterModel.FullName" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="RegisterModel.Username" class="form-label">Số điện thoại</label>
+                        <input asp-for="RegisterModel.Username" class="form-control" required pattern="^0[0-9]{9}$" />
+                        <span asp-validation-for="RegisterModel.Username" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="RegisterModel.Email" class="form-label">Gmail</label>
+                    <input asp-for="RegisterModel.Email" class="form-control" required />
+                    <span asp-validation-for="RegisterModel.Email" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="RegisterModel.Password" class="form-label">Mật khẩu</label>
+                    <input asp-for="RegisterModel.Password" class="form-control" type="password" required />
+                    <span asp-validation-for="RegisterModel.Password" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="RegisterModel.ConfirmPassword" class="form-label">Xác nhận mật khẩu</label>
+                    <input asp-for="RegisterModel.ConfirmPassword" class="form-control" type="password" required />
+                    <span asp-validation-for="RegisterModel.ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-register">ĐĂNG KÝ</button>
+
+                <div class="register-links mt-3">
+                    <a href="/DangNhap">Đã có tài khoản? Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        (function () {
+            'use strict';
+            var forms = document.querySelectorAll('.needs-validation');
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+}
