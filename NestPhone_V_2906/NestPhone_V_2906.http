@@ -1,0 +1,6 @@
+@NestPhone_V_2906_HostAddress = http://localhost:5068
+
+GET {{NestPhone_V_2906_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
